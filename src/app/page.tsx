@@ -4,6 +4,7 @@ import Project from "@/components/Project";
 import Section from "@/components/Section";
 import SkillList from "@/components/SkillList";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -24,7 +25,7 @@ export default function Home() {
         <Experience role="Software Engineering Intern" date="May 2022 - Dec. 2022" company="Malleum" description="At Malleum, I was actively learning and applying practical cybersecurity knowledge. I also got to explore smart contracts vulnerabilities and building data pipelines here!" />
         <Experience role="Software Developer" date="Nov. 2020 - Feb. 2021" company="Aceway Auto" description="Aceway Auto is a local autoparts wholesaler. I built an early iteration of their website, allowing customers to search and filter through their catelog of 5000+ products." />
         <Experience role="Software Developer" date="Jul. 2020 - Sep. 2020" company="Oakville STARZ" description="Oakville STARZ is a volunteer organization initially brought together by their love for music. I was tasked to build a web application to help them facilitate their community events." />
-        <a href="/Johnny_Qu_resume.pdf">View Full Resume</a>
+        <Link href="/Johnny_Qu_resume.pdf">View Full Resume</Link>
       </Section>
       <Section title="Projects" className="flex flex-col gap-8">
         <Project name="Personal Website" link="" description="What you're currently looking at! Built with React." />
